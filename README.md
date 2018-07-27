@@ -1,5 +1,5 @@
 # ECCV'18: Deep High Dynamic Range Imaging with Large Foreground Motions
-<img src="./img/hdr_teaser.jpg" width="600">
+<img src="./img/hdr_teaser.jpg" width="800">
 
 This is the implementation for [Deep High Dynamic Range Imaging with Large Foreground Motions](https://arxiv.org/abs/1711.08937), Shangzhe Wu, Jiarui Xu, Yu-Wing Tai, Chi-Keung Tang, in ECCV, 2018. More results can be found on the [project page](https://elliottwu.com/projects/hdr/). 
 
