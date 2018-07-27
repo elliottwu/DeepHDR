@@ -8,6 +8,7 @@ This is the implementation for [Deep High Dynamic Range Imaging with Large Foreg
 - Python 3.5
 - [Tensorflow 1.4.0](https://github.com/tensorflow/tensorflow/tree/r1.4)
 - OpenCV 3.4 (from [conda-forge](https://anaconda.org/conda-forge/opencv))
+- [Photomatix](https://www.hdrsoft.com/) for tonemapping
 
 ### Setup
 - Clone this repo: 
@@ -25,6 +26,13 @@ sh download_pretrained.sh
 ```bash
 sh test.sh
 ```
+
+### Tonemapping (post-processing)
+Generated HDR images are in `.hdr` format, which may not be properly displayed in your image viewer directly. You may use [Photomatix](https://www.hdrsoft.com/) for tonemapping: 
+- Download [Photomatix](https://www.hdrsoft.com/) free trial, which won't expire. 
+- Load the generated `.hdr` file in Photomatix.
+- Adjust the parameter settings. You may refer to pre-defined styles, such as `Detailed` and `Painterly2`. 
+- Save your final image in `.tif` or `.jpg`. 
 
 ### Train
 - Download Kalantari's dataset: (~8GB)
