@@ -33,7 +33,7 @@ cd dataset
 sh download_dataset.sh
 cd ..
 ```
-- Prepare TFRecord: (this takes ~10 minutes)
+- Prepare [TFRecord](https://www.tensorflow.org/guide/datasets#consuming_tfrecord_data): (this takes ~10 minutes)
 ```bash
 cd dataset
 python convert_to_tfrecord.py
