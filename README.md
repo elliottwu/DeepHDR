@@ -1,1 +1,2 @@
-# DeepHDR
+# Deep High Dynamic Range Imaging with Large Foreground Motions
+This is the implementation for ECCV'18 [Deep High Dynamic Range Imaging with Large Foreground Motions](https://arxiv.org/abs/1711.08937). 
