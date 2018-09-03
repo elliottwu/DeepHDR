@@ -58,12 +58,10 @@ tensorboard --logdir=logs --port=8888
 
 ### Citation
 ```
-@article{szwuDeepHDR,
-  author    = {Shangzhe Wu and Jiarui Xu and Yu{-}Wing Tai and Chi{-}Keung Tang},
-  title     = {Deep High Dynamic Range Imaging with Large Foreground Motions},
-  journal   = {CoRR},
-  volume    = {abs/1711.08937},
-  year      = {2017},
-  url       = {http://arxiv.org/abs/1711.08937},
+@InProceedings{Wu18a,
+  author       = "Wu, Shangzhe and Xu, Jiarui and Tai, Yu-Wing and Tang, Chi-Keung",
+  title        = "Deep High Dynamic Range Imaging with Large Foreground Motions",
+  booktitle    = "European Conference on Computer Vision",
+  year         = "2018",
 }
 ```
