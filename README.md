@@ -58,10 +58,11 @@ tensorboard --logdir=logs --port=8888
 
 ### Citation
 ```
-@InProceedings{Wu18a,
-  author       = "Wu, Shangzhe and Xu, Jiarui and Tai, Yu-Wing and Tang, Chi-Keung",
-  title        = "Deep High Dynamic Range Imaging with Large Foreground Motions",
-  booktitle    = "European Conference on Computer Vision",
-  year         = "2018",
+@InProceedings{Wu_2018_ECCV,
+  author = {Wu, Shangzhe and Xu, Jiarui and Tai, Yu-Wing and Tang, Chi-Keung},
+  title = {Deep High Dynamic Range Imaging with Large Foreground Motions},
+  booktitle = {The European Conference on Computer Vision (ECCV)},
+  month = {September},
+  year = {2018}
 }
 ```
